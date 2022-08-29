@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap");
+
+@font-face {
+  font-family: "abc";
+  src: url(./fonts/Montserrat-Regular.ttf);
+  /* 400 */
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "abc";
+  src: url(./fonts/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+:root{
+  --colorgreen:hsl(158, 36%, 37%);
+}
+.green{
+  color: var(--colorgreen);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.perfume {
+  letter-spacing: 10px;
+  font-family: "abc";
+  font-weight: 700;
+}
+p {
+  font-size: 14px;
+  font-family: "abc";
+  line-height: 1.7;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  /* padding: 50px; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub_container {
+  margin: 0 auto;
+  width: 40%;
+  background-color: burlywood;
+  height: 100%;
+  display: flex;
+}
+.smallcontainer1 {
+  background-color: blue;
+  width: 50%;
+}
+.smallcontainer2 {
+  padding: 20px;
+  background-color: white;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  /* gap: 30px; */
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.mybutton {
+  width: 100%;
+  height: 50px;
+  background-color: var(--colorgreen);
+  border-radius: 1em;
+  color: white;
+  font-family: "abc";
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.border {
+  border: 2px solid red;
+}
+.prices {
+  display: flex;
+  align-items: center;
+}
+
+.prices h5 {
+  margin-left: 30px;
+  text-decoration: line-through;
+}
+
+.mybutton img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
